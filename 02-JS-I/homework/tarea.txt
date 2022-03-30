@@ -5,7 +5,10 @@ Strings
 Es una cadena de texto que se escribe entre comillas ("")
 
 Funciones (argumentos, return)
+una funcion es decir a la computadora que haga algo. agregandole argunmento y haciendo que devuelva un resultado.
 
 Declaraciones if
 
+
 Valores booleanos (true, false)
+son tipos de datos
