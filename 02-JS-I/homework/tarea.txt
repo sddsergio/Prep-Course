@@ -1,1 +1,11 @@
+Variables
 Una variable es un lugar donde se puede guardar un dato
+
+Strings
+Es una cadena de texto que se escribe entre comillas ("")
+
+Funciones (argumentos, return)
+
+Declaraciones if
+
+Valores booleanos (true, false)
