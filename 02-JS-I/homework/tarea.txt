@@ -8,7 +8,7 @@ Funciones (argumentos, return)
 una funcion es decir a la computadora que haga algo. agregandole argunmento y haciendo que devuelva un resultado.
 
 Declaraciones if
-
+if significa si. osea si hace esto es true y no sino es false
 
 Valores booleanos (true, false)
 son tipos de datos
