@@ -48,6 +48,15 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+  if(idioma === 'aleman') {
+    return 'Guten Tag!';
+  } else if (idioma === 'mandarin') {
+    return 'Ni Hao!';
+  } else if (idioma === 'ingles') {
+    return 'Hello!';
+  } else {
+    return 'Hola!';
+  }
 }
 
 function colors(color) {
@@ -58,6 +67,7 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
+  
 }
 
 function esDiezOCinco(numero) {
