@@ -39,19 +39,19 @@ function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
   // var ojbMisterioso = {
-  //   numeroMisterioso: 4;
+  //   numeroMisterioso: 5;
   // }
-  var result = objetoMisterioso.numeroMisterioso * 5;
+  var producto = objetoMisterioso.numeroMisterioso * 5;
 
-  return result;
+  return producto;
 }
 
-function eliminarPropiedad(objeto, propiedad) {
+function eliminarPropiedad(objeto, unaPropiedad) {
   // Elimina la propiedad "propiedad" de "objeto"
   // Devuelve el objeto
   // Tu código:
-  delete objeto[propiedad];
-
+  
+  delete objeto[unaPropiedad];
   return objeto;
 }
 
@@ -59,13 +59,13 @@ function nuevoUsuario(nombre, email, password) {
   // Crea un nuevo objeto con las propiedades coincidiendo con los argumentos que se pasan a la función
   // Devuelve el objeto
   // Tu código:
-  var obj = {
+  var objeto = {
     nombre: nombre,
     email: email,
     password: password
   };
 
-  return obj;
+  return objeto;
 }
 
 function tieneEmail(usuario) {
@@ -88,7 +88,7 @@ function tienePropiedad(objeto, propiedad) {
   if(objeto[propiedad]) {
       return true;
     } else {
-        return false;
+      return false;
   }
   // return objeto.hasOwnProperty(propiedad);
 }
